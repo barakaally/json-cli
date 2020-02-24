@@ -1,7 +1,7 @@
 {
   "name": "json-cli",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "Command line interface for json-db",
   "main": "client.js",
   "bin": {
     "json": "cli.js"
@@ -9,8 +9,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "json-cli",
+    "json-db",
+    "cli",
+    "in-memory-db"
+  ],
+  "author": "Baraka Ally <baraka.ally.co.tz@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "chalk": "^3.0.0",
