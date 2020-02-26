@@ -18,8 +18,8 @@
   },
   "homepage": "https://github.com/barakaally/jsonb-cli#readme",
   "keywords": [
-    "json-cli",
-    "json-db",
+    "jsonb-cli",
+    "jsonb-db",
     "cli",
     "in-memory-db"
   ],
