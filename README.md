@@ -14,7 +14,7 @@ Navigate to project folder and provide the followings commands
 |  jsonb  | lunch jsonb-cli| > jsonb|
 |  help    | print jsonb-cli usage help |> jsonb help
 |  version    | print jsonb-cli version |> jsonb version
-|  connect    | connect jsonb-cli to db |> jsonb connect
+|  connect --db=databasename   | connect jsonb-cli to db |> jsonb connect --db=logs
 |  db    | list functions for connected db instance |jsonb>db
 |  collections()    | list avalaibale collections in connected db instance |jsonb>db.collections()|
 |  createCollection("collectionName")    | create collection |jsonb>db.createCollection("customers")|
